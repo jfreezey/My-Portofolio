@@ -1,0 +1,146 @@
+* {
+  background-color: #F7F0E8;
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+/* <weight>: Use a value from 100 to 900
+<uniquifier>: Use a unique and descriptive class name */
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #3d362d;
+  margin: 0px 50px;
+}
+
+.navbar {
+  justify-content: space-around;
+}
+.navbar a {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: none;
+  color: #3d362d;
+  margin: 20px;
+}
+
+.btn-contact {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  background-color: #3d362d;
+  color:#F7F0E8;
+  padding: 6px;
+  width: 100px;
+  margin: 0px 50px;
+  border-radius: 99px;
+  text-align: center;
+}
+
+.tampilan {
+  display: flex;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+.introduction {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin-left: 50px;
+  color: #3d362d;
+}
+
+#role {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration-line: underline;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.nama{
+  font-size: 50px;
+}
+
+#intro {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn-talk{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  background-color: #3d362d;
+  color:#F7F0E8;
+  padding: 6px;
+  width: 120px;
+  border-radius: 99px;
+  text-align: center;
+  box-shadow: 0 0 15px #3d362d;
+  margin-top: 30px;
+}
+
+#profil {
+  max-width: 450px;
+  max-height: 600px;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.about-me{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.desc {
+  margin: 50px;
+  color: #3d362d;
+}
+
+.desc h1{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.desc p{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: justify;
+}
+

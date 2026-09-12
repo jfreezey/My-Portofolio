@@ -4,8 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cookie&family=Great+Vibes&family=Outfit:wght@100..900&family=Pinyon+Script&display=swap');
+    </style>
+
 </head>
 <body>
-    <h1>This is my portfolio</h1>
+    <!-- navigation bar -->
+    <header>
+        <div>
+            <h1 class="logo">Jen.</h1>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#work">Work</a>
+            </nav>
+            <a href="#contact" class="btn-contact">Contact</a>
+        </div>
+    </header>
+
+    <!-- tampilan home -->
+    <div class="tampilan" id="home">
+        <div class="introduction">
+            <h1 class="hi">Hi!</h1>
+            <h1 class="nama">I'm Jennifer</h1>
+            <p id="role">UI/UX Designer & Data Analyst</p>
+            <p id="intro">I love turning bold ideas into powerful applications by designing, building, <br> and analyzing seamless digital experiences.</p>
+            <a href="#contact" class="btn-talk">Let's Talk &nbsp &nearr;</a>
+        </div>
+        <img src="profil.png" id="profil" alt="Gambar profil"/>
+    </div>
+
+    <br>
+
+    <!-- tampilan about me -->
+    <div class="about-me">
+        <div class="desc" id="about">
+            <h1>About Me</h1>
+            <br>
+            <p>I'm Jennifer, an informatics student at Pelita Harapan University with a deep passion for technology, design, and problem solving. For me, design is never just about how things look, but it's about creating meaningful, seamless experiences that truly connect people with technology. </p>
+            <br>
+            <p>I thrive at the intersection of creativity and logic. Whether I'm crafting intuitive user interfaces, coding dynamic web applications, or uncovering valuable insights through data analysis, I enjoy the challenge of turning complex problems into simple, elegant solutions.</p>
+            <br>
+            <p>Beyond the tech world, I also bring discipline, teamwork, and high energy from my journey as a basketball athlete.</p>
+        </div>
+    </div>
 </body>
 </html>
